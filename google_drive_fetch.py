@@ -10,7 +10,7 @@ if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-DEFAULT_FOLDER_ID = ''
+DEFAULT_FOLDER_ID = '1HiNDu0lndF044CkfDrEoAOtpQV2IwZ6Z'
 
 def get_drive_service():
     key_data = os.environ.get('GOOGLE_SERVICE_ACCOUNT_KEY', '')
