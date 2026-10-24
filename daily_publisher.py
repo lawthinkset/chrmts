@@ -177,7 +177,10 @@ def generate_pinned_comment(caption=""):
             f"👉 Download on iOS: {link}"
         )
     ]
-    return random.choice(pinned_options)
+    chosen = random.choice(pinned_options)
+    if link not in chosen:
+        chosen = f"{chosen}\n\n👉 Download Chromatis on the App Store: {link}"
+    return chosen
 
 def select_video(video_list, published):
     published_names = {p.get('filename') for p in published}
@@ -331,7 +334,8 @@ def publish(video_path, publish_to_facebook=True, publish_to_instagram=True):
                 caption=caption,
                 page_token=single_page_token,
                 ig_account_id=ig_account_id,
-                share_to_feed=share_to_feed
+                share_to_feed=share_to_feed,
+                comment_text=pinned_comment
             )
             results.append(ig_res)
         elif not ig_account_id:

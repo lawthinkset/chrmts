@@ -36,7 +36,7 @@ def get_connected_instagram_account(page_id, page_token):
 
     return None, None
 
-def upload_reel(video_path, caption="", page_token=None, ig_account_id=None, share_to_feed=None):
+def upload_reel(video_path, caption="", page_token=None, ig_account_id=None, share_to_feed=None, comment_text=None):
     page_token = page_token or os.environ.get('FB_PAGE_ACCESS_TOKEN', '')
     ig_account_id = ig_account_id or os.environ.get('INSTAGRAM_ACCOUNT_ID', '')
 
@@ -166,7 +166,20 @@ def upload_reel(video_path, caption="", page_token=None, ig_account_id=None, sha
 
     media_id = resp.json().get('id')
     print(f"  [SUCCESS] Reel published on Instagram: {media_id}")
-    return {'status': 'success', 'platform': 'instagram', 'media_id': media_id}
+    comment_id = None
+    if comment_text:
+        time.sleep(5)
+        try:
+            c_url = f"{GRAPH_URL}/{media_id}/comments"
+            c_resp = requests.post(c_url, data={'message': comment_text, 'access_token': page_token}, timeout=20)
+            if c_resp.status_code == 200:
+                comment_id = c_resp.json().get('id')
+                print(f"  [IG] Comment with App Link posted on Instagram Reel: {comment_id}")
+            else:
+                print(f"  [INFO] Instagram Reel comment response ({c_resp.status_code}): {c_resp.text}")
+        except Exception as ce:
+            print(f"  [INFO] Instagram Reel comment skipped: {ce}")
+    return {'status': 'success', 'platform': 'instagram', 'media_id': media_id, 'comment_id': comment_id}
 
 def upload_story(video_path, page_token=None, ig_account_id=None):
     page_token = page_token or os.environ.get('FB_PAGE_ACCESS_TOKEN', '')
