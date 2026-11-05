@@ -848,5 +848,30 @@
         "comment_id": "17994595731064657"
       }
     ]
+  },
+  {
+    "filename": "Creator_demonstrating_app_in_gal\u2026_6b916fd1.mp4",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1299029319967179",
+        "video_id": "1631501715285294",
+        "comment_id": "1631501715285294_1719389686275374",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1299029319967179",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17924463042442888",
+        "comment_id": "18032549528687420"
+      }
+    ]
   }
 ]
