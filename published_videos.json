@@ -1409,5 +1409,30 @@
         "comment_id": "18014702321999943"
       }
     ]
+  },
+  {
+    "filename": "Designer_extracts_color_palette_app_20261024052119.mp4",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1299029319967179",
+        "video_id": "1769135414143086",
+        "comment_id": "1769135414143086_1868697964365082",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "failed",
+        "platform": "facebook_story",
+        "page_id": "1299029319967179",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17930897373186247",
+        "comment_id": "18099101552405534"
+      }
+    ]
   }
 ]
