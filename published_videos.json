@@ -1534,5 +1534,30 @@
         "comment_id": "17911710630571463"
       }
     ]
+  },
+  {
+    "filename": "Designer_extracts_palette_from_c\u2026_877af606.mp4",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1299029319967179",
+        "video_id": "30150055487928419",
+        "comment_id": "30150055487928419_4582263225349803",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1299029319967179",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18231679813336167",
+        "comment_id": "18067268195534727"
+      }
+    ]
   }
 ]
