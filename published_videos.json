@@ -1709,5 +1709,30 @@
         "comment_id": "18086811674367761"
       }
     ]
+  },
+  {
+    "filename": "Creator_holding_smartphone_showi\u2026_20261026032557.mp4",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1299029319967179",
+        "video_id": "2368519383902678",
+        "comment_id": "2368519383902678_2673625686414565",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "failed",
+        "platform": "facebook_story",
+        "page_id": "1299029319967179",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18149549029591160",
+        "comment_id": "18290219716291355"
+      }
+    ]
   }
 ]
