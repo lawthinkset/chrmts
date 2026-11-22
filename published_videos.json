@@ -2120,5 +2120,29 @@
         "comment_id": "18418346461080491"
       }
     ]
+  },
+  {
+    "filename": "Designer_copying_color_hex_code_20261024050152.mp4",
+    "results": [
+      {
+        "status": "failed",
+        "platform": "facebook",
+        "page_id": "1299029319967179",
+        "error": "{\"error\":{\"message\":\"Confirm your identity before you can publish as this Page. Open the Facebook app on your phone and follow the instructions.\",\"type\":\"OAuthException\",\"code\":368,\"error_data\":{\"sentry_block_data\":\"AeuBIx1j5JfmdPNkz2I01x3ky1iQGDm8L40stg-NWp2Rb_hwHOCvBI1Q6C9tvHPdgMHaemHifpd3wRUuDSxWqK1EqoQVlF_ypqAMrgZ0i8h3wgEyZp0db2DmhwURzuSznFg4xeHcceXMu4dQQ8tsSIJgBLPqmUzGWvzEK0VkASeRCHMgigz1WwZ684b5ZTyaOvV9GvLQqhneaJOUZKTBbaeFSAFsNaMD1QRkKZzyMRLUo_nk8t2py0LOtF3UkwoTzpljWOkYcIJF5kmRn_Ed474kDQ7qd5gAZ7GJYiibfQaa8bitk4DaTJxecT2z5qxnZtfqaBmymHO05D1v-dPi8pRDn5NlqR8euDH1zTN2FQk\",\"help_center_id\":0,\"is_silent\":false},\"error_subcode\":4854002,\"error_user_msg\":\"\",\"fbtrace_id\":\"AIdo0DxVXYGdx9OPYpvYxjZ\"}}",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1299029319967179",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18127387751299992",
+        "comment_id": "18459014719121692"
+      }
+    ]
   }
 ]
