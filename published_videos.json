@@ -2456,5 +2456,27 @@
         "comment_id": "17904469224674657"
       }
     ]
+  },
+  {
+    "filename": "Designer_demonstrating_color_ide\u2026_11375132.mp4",
+    "results": [
+      {
+        "status": "failed",
+        "platform": "facebook",
+        "page_id": "1299029319967179",
+        "error": "{\"error\":{\"message\":\"You cannot access the app till you log in to www.facebook.com and follow the instructions given.\",\"type\":\"OAuthException\",\"code\":190,\"error_data\":\"{\\\"checkpoint_url\\\":\\\"https:\\\\\\/\\\\\\/www.facebook.com\\\"}\",\"error_subcode\":459,\"fbtrace_id\":\"Agezni-jRexPvLUelUY0Rs7\"}}",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "failed",
+        "platform": "facebook_story",
+        "page_id": "1299029319967179",
+        "page_name": "Chromatis"
+      },
+      {
+        "status": "failed",
+        "platform": "instagram"
+      }
+    ]
   }
 ]
